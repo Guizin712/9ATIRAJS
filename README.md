@@ -1,0 +1,2 @@
+# 9ATIRAJS
+Pensamento Compentacinal 
