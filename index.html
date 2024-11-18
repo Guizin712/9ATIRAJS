@@ -1,29 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>palmeiras sem mundial</title>
+    <meta name="author" content="Seu Nome">
+    <meta name="description" content="Portfólio com projetos em JavaScript">
+    <title>Portfólio de Projetos - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <ul>
-        
-            
-                <li>sobre</li>
-                <li>cadastro</li>
-                <li>redes</li>
-                <li></li>
-                <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                
-                    
-                </li>
-            </li>
+    <header>
+        <div class="container">
+            <h1>Meu Portfólio</h1>
+            <p>Projetos desenvolvidos utilizando JavaScript</p>
+        </div>
+    </header>
 
-        </li>
-    </ul>
+    <section class="projects">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="project-grid">
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <img src="images/projeto1.png" alt="Projeto 1">
+                    <h3>Projeto 1 - Calculadora</h3>
+                    <p>Uma calculadora simples usando JavaScript.</p>
+                    <button class="view-btn" onclick="viewProject(1)">Ver Projeto</button>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <img src="images/projeto2.png" alt="Projeto 2">
+                    <h3>Projeto 2 - To-Do List</h3>
+                    <p>Uma lista de tarefas interativa.</p>
+                    <button class="view-btn" onclick="viewProject(2)">Ver Projeto</button>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="project-card">
+                    <img src="images/projeto3.png" alt="Projeto 3">
+                    <h3>Projeto 3 - Jogo da Velha</h3>
+                    <p>Jogo da velha interativo usando JavaScript.</p>
+                    <button class="view-btn" onclick="viewProject(3)">Ver Projeto</button>
+                </div>
+                <!-- Adicione os outros projetos aqui... -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
